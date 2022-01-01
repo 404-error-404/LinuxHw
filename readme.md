@@ -41,19 +41,7 @@
 
 2.4 作业函数的调用关系如下：
 
-```mermaid
-graph LR
-detection_folder-->detection_folder
-detection_folder-->read_file
-main-->detection_folder
-main-->get_param
-main-->print_result
-print_result-->time_to_str
-read_file-->is_function_define
-read_file-->is_function_name
-```
-
-
+![此作业代码调用关系.](./Testing/此作业代码调用关系.png)
 
 ## 3. 运行示例
 
